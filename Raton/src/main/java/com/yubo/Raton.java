@@ -9,6 +9,8 @@ public class Raton extends Thread{
         this.tiempoAlimentacion = tiempoAlimentacion;
     }
 
+
+
     public void comer(){
         try {
             System.out.println("El raton "+ this.nombre + " ha comenzado a alimentarse");
