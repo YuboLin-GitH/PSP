@@ -14,8 +14,8 @@ public class WaitNotifySimpleConSync implements Runnable{
     public synchronized void metodo2(){
         for(int i=10; i<20; i++){
             System.out.println("Ejecución "+ i);
-            this.notifyAll();
         }
+        this.notifyAll();
     }
 
     public void run() {
