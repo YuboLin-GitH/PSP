@@ -1,7 +1,5 @@
 package com.yubo.servidor;
 
-
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -59,6 +57,7 @@ public class PrincipalChat extends JFrame {
        areaTexto.append(mensaje + "\n");
    }
    public void habilitarTexto(boolean editable){
+       campoTexto.setEditable(editable);
        campoTexto.setEnabled(editable);
    }
 
